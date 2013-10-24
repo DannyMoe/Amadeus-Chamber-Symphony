@@ -1,0 +1,339 @@
+html {
+	background-color: black;
+	font-family: Open Sans;
+	font-size: 14px;
+}
+
+body, .container {
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+}
+
+.container {
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+/* Utility Classes */
+.full {
+	width: 100%;
+}
+
+.bs {
+border-bottom: 1px solid #333;
+	box-shadow: 0px 1px 2px #444;
+}
+
+.br {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.hidden {
+	display: none;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+  border: 2px solid #bdc3c7;
+  color: #34495e;
+  font-size: 14px;
+  padding: 5px 5px;
+  height: 21px;
+  text-indent: 6px;
+  -webkit-appearance: none;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: border .25s linear, color .25s linear;
+  -moz-transition: border .25s linear, color .25s linear;
+  -o-transition: border .25s linear, color .25s linear;
+  transition: border .25s linear, color .25s linear;
+  -webkit-backface-visibility: hidden;
+}
+
+.btn {
+  border: none;
+  background: #3498db;
+  color: #ffffff;
+  font-weight: 300;
+  padding: 9px 25px 10px;
+  line-height: 22px;
+  text-decoration: none;
+  text-shadow: none;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: 0.25s;
+  -moz-transition: 0.25s;
+  -o-transition: 0.25s;
+  transition: 0.25s;
+  -webkit-backface-visibility: hidden;
+}
+.btn:hover, .btn:focus {
+  background-color: #2980b9;
+  color: #ecf0f1;
+  outline: none;
+  -webkit-transition: 0.25s;
+  -moz-transition: 0.25s;
+  -o-transition: 0.25s;
+  transition: 0.25s;
+  -webkit-backface-visibility: hidden;
+}
+
+
+/* /Utility Classes */
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.aboveFold {
+	position: relative;
+	height: 790px;
+	background: url(../../img/machine-violin_1080.jpg);
+	background-repeat: no-repeat;
+}
+
+.site-head {
+	position: relative;
+	height: 80px;
+	width: 100%;
+	padding: 30px 0px 30px 20px;
+	z-index: 1000;
+}
+
+.site-head img {
+	height: 80px;
+	width: auto;
+	margin: 0;
+	padding: 0;
+	
+}
+
+.head-info {
+	display: inline-block;
+	position: absolute;
+	top: 50px;
+	left: 120px;
+	
+}
+
+.head-info p {
+	font-size: 1em;
+	line-height: 1.4em;
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+
+.head-info .acs {
+	font-size: 2em;
+	font-weight: 600;
+}
+
+.head-info .stj {
+	word-spacing: 4px;
+}
+
+.navbar {
+	position: relative;
+	float: right;
+	padding-right: 40px;
+}
+
+.navbar-nav {
+	
+}
+
+.navbar-nav li {
+	float: left;
+	list-style: none;
+	padding: 10px;
+}
+
+.navbar-nav a {
+	color: #fff;
+	font-size: 1em;
+}
+
+#welcome {
+	position: static;
+	top: 110px;
+	font-family: Roboto;
+	color: white;
+	text-align: right;
+	padding-right: 30px;
+}
+
+#welcome h1 {
+	font-family: 'Open Sans';
+	font-size: 4em;
+	line-height: 0.2em;
+	letter-spacing: -2px;
+}
+
+#welcome p {
+	font-family: 'Source Sans Pro';
+	font-size: 1.47em;
+	font-weight: 300;
+	color: #BDC3C7;
+	margin: 0;
+	padding: 0;
+}
+
+
+#welcome a {
+	display: inline-block;
+	text-transform: uppercase;
+	padding: 10px;
+	margin-top: 30px;
+	background-color: #F39C12;
+}
+
+.socialFoot {
+	position: absolute;
+	top: 92%;
+	left: 85%;
+}
+
+
+.content {
+	position: relative;
+	background-color: #fff;
+	height: 300px;
+	margin-top: -12px;
+	padding: 50px 0 30px 0;
+	border-top: 1px solid rgba(0,0,0,.05);
+	border-bottom: 1px solid rgba(0,0,0,.05);
+}
+
+.content.even {
+	background: #f8f8f8;
+}
+
+.border {
+	border: 1px dashed #BDC3C7;
+	margin: 5px;
+	padding-bottom: 10px;
+}
+
+.invite {
+	position: absolute;
+	top: 40px;
+	left: 60px;
+	width: 350px;
+	height: 250px;
+	background: url(../../img/paper_fibers.png);
+	border: none;
+}
+
+.invite h1 {
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 15px;
+	padding-left: 20px;
+	line-height: 1.2em;
+	font-size: 2.5em;
+	font-family: 'League Script';
+	color: #7779b2;
+	text-shadow: 0 2px 1px rgba(0,0,0,0,0.5);
+	border-bottom: 1px dashed #7779b2;
+}
+
+.invite p {
+	color: #34495E;
+	padding-left: 40px;
+	line-height: 0.6em;	
+}
+
+.invite .title {
+	font-size: 1.3em;
+	font-weight: 600;
+	padding-top: 10px;
+	
+}
+
+.invite .concertInfo {
+	line-height: 0.4em;
+}
+
+#progBtn {
+	position: absolute;
+	top: 310px;
+	left: 60px;
+	font-size: 0.8em;
+	color: #BDC3C7;
+}
+
+#progBtn:hover {
+	font-style: italic;
+}
+
+.music {
+	position: absolute;
+	bottom: 80px;
+	left: 460px;
+	width: 520px;
+	line-height: 0.8em;
+	padding-left: 40px;
+	border-left: 1px dotted #333;
+}
+
+.music strong {
+	line-height: 1.4em;
+}
+
+.piece {
+	font-size: 1.2em;
+	font-weight: 600;
+}
+
+.guest, .tickets {
+	font-size: 0.8em;
+	color: #2e2e2e;
+	text-align: center;
+}
+
+
+.moreLink {
+	position: absolute;
+	top: 85%;
+	left: 90%;
+	font-size: 0.8em;
+	color: #2e2e2e;
+	opacity: 0.6;
+	padding: 5px;
+	border-left: 1px solid #333;
+	border-right: 1px solid #333;
+}
+
+.moreLink:hover {
+	opacity: 1;
+}

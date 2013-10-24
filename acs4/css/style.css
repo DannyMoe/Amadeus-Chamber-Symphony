@@ -1,0 +1,670 @@
+html {
+	font-size: 10px;
+	font-family: Montserrat, sans-serif;
+	color: #2e2e2e;
+}
+
+body {
+	width: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
+	background: url('img/kindajean.png');
+	background-repeat: repeat repeat;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.wrapper {
+	width: 100%;
+	overflow-x: hidden;
+}
+
+.container {
+	width: 100%;
+	position: relative;
+	margin: 0 auto;
+	height: 265px;
+	background-color: #e74c3c;
+	color: #fff;
+}
+
+.logo {
+	font-family: Roboto;
+}
+
+p.acs {
+	width: 255;
+	position: absolute;
+	top: -20px;
+	left: 230px;
+	margin-top: 0px;
+	font-size: 142px;
+	letter-spacing: -8px;
+	text-shadow: 0 2px 1px rgba(0,0,0,0,0.5);
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.hidden {
+	display: none;
+}
+
+.logoWords {
+	position: absolute;
+	top: 30px;
+	left: 500px;
+	width: 512px;
+	border-left: 1px solid #333;
+	padding-left: 20px;
+}
+
+.logoWords p {
+	padding-top: 0px;
+	font-size: 75px;
+	line-height: 0px;
+	margin-bottom: -10px;
+	text-shadow: 5px 2px 1px rgba(0,0,0,0,0.5);
+}
+
+.logoWords .amadeus {
+	font-size: 85px;
+	margin-top: 0px;
+}
+
+.cityInfo {
+	position: absolute;
+	top: 140px;
+	left: 225px;
+	color: #000;
+	font-size: 18px;
+	font-weight: 100;
+	line-height: 0px;
+}
+
+.cityInfo p {
+	text-align: center;
+	font-family: Roboto;
+	letter-spacing: 3px;
+}
+
+.amadeus {
+	letter-spacing: 1px;
+}
+
+.chamber {
+	letter-spacing: 10px;
+}
+
+nav {
+	width: 100%;
+	height: 50px;
+	background-color: black;
+	z-index: 500;
+	padding: 0;
+	position: absolute;
+	top: 215px;
+	left: 0px;
+}
+
+.top_nav {
+	background-color: black;
+	margin-top: 0px;
+}
+
+.top_nav li a {
+	text-decoration: none;
+	color: white;
+	font-size: 12pt;
+}
+
+.top_nav li {
+	float: left;
+	list-style: none;
+	padding: 15px 25px 15px 25px;
+	border-right: 1px dashed #e0dfdf;
+}
+
+.top_nav li:first-child {
+	border-left: 1px dashed #e0dfdf;
+	margin-left: -3px;
+}
+
+/*Banner*/
+.banner_container {
+	position: relative;
+	top: 10px;
+	left: 150px;
+	width: 70%;
+	margin-top: 30px;
+	font-size: 1.2em;
+	color: #f0f0f0;
+	text-shadow: 0 2px 1px rgba(0,0,0,0,0.5);
+}
+
+.banner {
+	position: absolute;
+	background: #3498db;
+	height: 42px;
+	width: 100%;
+	box-shadow: 0px 1px 4px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 1px 4px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0px 1px 4px rgba(0,0,0,0.5);
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	z-index: 500;
+}
+
+.banner h2 {
+	text-align: center;
+	margin-top: 10px;
+}
+
+.l_top, .l_bottom, .r_top, .r_bottom {
+	position: absolute;
+	height: 0px;
+	width: 0px;
+	border-style: solid;
+	border-width: 30px;
+}
+
+.l_top, .r_top {
+	top: 2px;
+}
+
+.l_top, .l_bottom {
+	left: -30px;
+}
+
+.l_bottom, .r_bottom {
+	bottom: -39px;
+}
+
+.r_top, .r_bottom {
+	right: -30px;
+}
+
+.l_top {
+	border-color: #2980b9 transparent transparent;
+}
+
+.l_bottom {
+	border-color: transparent transparent #2980b9;
+}
+
+.r_top {
+	border-color: #2980b9 transparent transparent;
+}
+
+.r_bottom {
+	border-color: transparent transparent #2980b9;
+}
+
+.content_section {
+	width: 80%;
+	height: 420px;
+	margin: 0 auto;
+	margin-top: 65px;
+	padding: 20px 15px 20px 20px;
+	background-color: #fff;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+.sub_section {
+	display: inline-block;
+	float: left;
+	background-color: #83e289;
+	width: 47%;
+	height: 400px;
+	margin: 10px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+.event p {
+	text-align: center;
+	font-size: 12pt;
+	line-height: 0.3em;
+}
+
+.event .concertInfo, .event .title, .event #progBtn {
+	position: relative;
+	top: 60px;
+}
+
+.event .title {
+	font-size: 24pt;
+	font-weight: 200;
+	color: white;
+}
+
+.music {
+	margin-top: 45px;
+	padding: 20px;
+	font-size: 10pt;
+}
+
+.event .piece, .event .choir {
+	font-size: 10pt;
+	line-height: 12px;
+	max-width: 85%;
+	margin: 0 auto;
+}
+
+.event .guest {
+	font-size: 10pt;
+	font-style: italic;
+	color: #2e2e2e;
+}
+
+.event .piece {
+	padding-top: 10px;
+}
+
+.tickets a, .tickets p {
+	font-size: 8pt;
+	line-height: 10px;
+}
+
+.calendar {
+	top: -405px;
+}
+
+.calendar img {
+	margin-left: 23%;
+	padding: 10px;
+	padding-top: 60px;
+	display: block;
+}
+
+.calendar .description {
+	color: #000;
+	font-size: 14pt;
+	font-weight: 400;
+	line-height: 1.3em;
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 10px;
+}
+
+.btn {
+  border: none;
+  background: #3498db;
+  color: #ffffff;
+  font-weight: 300;
+  padding: 9px 25px 10px;
+  margin: 0 auto;
+  line-height: 22px;
+  text-decoration: none;
+  text-shadow: none;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: 0.25s;
+  -moz-transition: 0.25s;
+  -o-transition: 0.25s;
+  transition: 0.25s;
+  -webkit-backface-visibility: hidden;
+}
+.btn:hover, .btn:focus {
+  background-color: #2980b9;
+  color: #ecf0f1;
+  outline: none;
+  -webkit-transition: 0.25s;
+  -moz-transition: 0.25s;
+  -o-transition: 0.25s;
+  transition: 0.25s;
+  -webkit-backface-visibility: hidden;
+}
+
+.calendar .btn {
+	margin-left: 32%;
+}
+
+.event #progBtn {
+	top: 80px;
+	left: 35%;
+	font-size: 12pt;
+}
+
+/* Member Section */
+
+.members p {
+	
+}
+
+#personnel {
+	
+}
+
+#personnel .sub_section {
+	
+}
+
+#personnel .overview, #personnel .members {
+	padding-bottom: 5px;
+	overflow-y: scroll;
+	font-size: 12pt;
+	text-align: center;
+	line-height: 26px;
+}
+
+.overview img {
+	margin-top: -15px;
+}
+
+.overview p {
+	width: 90%;
+	margin: 0 auto;
+	margin-top: -20px;
+}
+
+.members p {
+	margin-top: 60px;
+	padding: 20px;
+}
+
+
+/* Audition Section */
+
+#audition .sub_section {
+	background-color: #b281c6;
+	position: relative;
+	font-size: 14pt;
+}
+
+#audit_text {
+	font-size: 12pt;
+}
+
+#audit_text h1 {
+	margin-top: 40px;
+	margin-bottom: 30px;
+	width: 100%;
+	text-align: center;
+	font-size: 1em;
+	
+}
+
+#audit_text p {
+	font-size: 1em;
+	width: 90%;
+	margin-left: 20px;
+	text-align: center;
+}
+
+#audit_text p#note {
+	line-height: 1.1em;
+	font-size: 0.6em;
+	font-weight: 300;
+	color: #2e2e2e;
+	margin-top: 5px;
+}
+
+#audition img {
+	position: absolute;
+	top: 40px;
+	left: 90px;
+}
+
+.sub_section .audition {
+	position: absolute;
+	top: 62%;
+	width: 100%;
+	text-align: center;
+}
+
+#audition a {
+	position: absolute;
+	top: 75%;
+	left: 100px;
+}
+
+#board .sub_section {
+	position: relative;
+	font-size: 12pt;
+	text-align: center;
+}
+
+.board_member {
+	display: inline-block;
+	position: relative;
+	top: 40px;
+	right: 10px;
+	width: 80px;
+}
+
+.board_thumb {
+	width: 60px;
+	height: auto;
+	margin: 15px;
+}
+
+.board_member .board_name {
+	position: absolute;
+	top: 60px;
+	left: 5px;
+	width: 90px;
+	font-size: 10pt;
+	text-align: center;
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;	
+}
+
+.board_pic {
+	width: 175px;
+	height: auto;
+}
+
+.board_table {
+	position: absolute;
+	top: 240px;
+	left: 40px;
+}
+
+.board_table tr td:first-child {
+	text-align: right;
+}
+
+.board_table tr td:last-child {
+	padding-left: 20px;
+	text-align: left;
+	width: 180px;
+}
+
+/* Mini Section */
+.mini_section {
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+.mini {
+	float: left;
+	width: 230px;
+	height: 220px;
+	margin: 10px;
+	padding: 20px;
+	background-color: white;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+.mini h2 {
+	margin: -5px 10px 20px 10px;
+}
+
+.color {
+	background-color: #f5dc77;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	height: 140px;
+	padding: 20px;
+	font-size: 12pt;
+	line-height: 20px;
+	position: relative;
+	top: -10px;
+}
+
+.color p {
+	position: relative;
+	text-align: center;
+}
+
+.socText {
+	top: -10px;
+}
+
+.newsText {
+	top: -30px;
+}
+
+.donText {
+	top: -10px;
+}
+
+#connect, #signUp, #donate, #logHead {
+	font-family: "Open Sans";
+	font-size: 12pt;
+	font-weight: 200;
+}
+
+.social, .news, .donation {
+	position: relative;
+}
+
+.social {
+	left: -30px;
+}
+
+.social img {
+	position: relative;
+	margin: 10px;
+	top: -50px;
+}
+
+.news {
+
+	left: 270px;
+}
+
+.news form {
+	position: relative;
+	top: -65px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+  border: 2px solid #bdc3c7;
+  color: #34495e;
+  font-size: 14px;
+  padding: 5px 5px;
+  height: 21px;
+  text-indent: 6px;
+  -webkit-appearance: none;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: border .25s linear, color .25s linear;
+  -moz-transition: border .25s linear, color .25s linear;
+  -o-transition: border .25s linear, color .25s linear;
+  transition: border .25s linear, color .25s linear;
+  -webkit-backface-visibility: hidden;
+}
+
+
+#emailText {
+	line-height: 16px;
+	width: 90%;
+}
+
+#emailButton {
+	background-color: #3498db;
+	color: white;
+	font-size: 10pt;
+	font-weight: 400;
+	margin-top: 5px;
+	padding: 5px 30px 5px 30px;
+}
+
+.donation {
+	top: -280px;
+	left: 265px;
+}
+
+#donateBtn {
+	background-color: #9B59B6;
+	position: relative;
+	top: -25px;
+	left: 25px;
+	font-size: 10pt;
+	font-weight: 400;
+}
+
+
+.boardLog {
+	position: absolute;
+	top: 2740px;
+	left: 130px;
+	width: 46%;
+	padding-bottom: 50px;
+}
+.boardLog .color {
+	background-color: #83e289;
+}
+
+.boardLog form {
+	width: 300px;
+}
+
+.boardLog table {
+	position: absolute;
+	top: 40px;
+	left: 120px;
+}
+
+.boardLog table .btn {
+	float: right;
+	margin-right: 2px;
+}
