@@ -1,0 +1,66 @@
+.site-head {
+	background-color: #2e2e2e;
+	padding: 0px 0px 10px 10px;
+}
+
+section.content {
+	height: auto;
+	padding: 5px;
+}
+
+#note {
+	font-style: italic;
+	font-size: 0.8em;
+}
+
+.auditionForm {
+	padding-top: 20px;
+}
+
+.auditionForm tr {
+	height: 45px;
+	font-size: 0.8em;
+}
+
+.auditionForm tr td:first-child {
+	text-align: right;
+	padding-right: 10px;
+}
+
+.auditionForm input[type="text"], textarea {
+	width: 90%;
+}
+
+.auditionForm .btn {
+	position: relative;
+	left: 5px;
+	width: 45%;
+	font-size: 1em;
+	background: transparent;
+	background-color: #2e2e2e;
+	cursor: pointer;
+}
+
+@media all and (min-width: 30em) {
+
+.site-head img {
+		margin-top: 10px;
+	}
+
+.head-info {
+	top: 15px;
+}
+
+.navbar {
+	top: 10px;
+}
+
+section.content {
+	padding: 20px;
+}
+
+@media all and (min-width: 60em) {
+
+	.navbar {
+		top: 30px;
+	}

@@ -1,0 +1,124 @@
+.site-head {
+    background-color: #2e2e2e;
+    padding: 0px 0px 10px 10px;
+}
+section.content {
+    background-color: #fff;
+    box-shadow: none;
+    border-left: none;
+    border-right: none;
+    margin: 10px auto;
+}
+.invite .title {
+    margin-top: -5px;
+    color: #000;
+    width: 90%;
+    font-size: 1.2em;
+}
+.invite p {
+    font-size: 1em;
+}
+.invite .concertInfo {
+    margin-top: 10px;
+}
+.showProgram {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    font-size: 0.8em;
+    color: rgba(0, 0, 0, 0.2);
+}
+.music {
+}
+#christmasEvent .title, #mysteryEvent .title, #springEvent .title, #finalEvent .title {
+    margin-left: 15px;
+}
+@media screen and (min-width: 30em) {
+    .site-head img {
+        margin-top: 10px;
+    }
+    .head-info {
+        top: 15px;
+    }
+    .navbar {
+        top: 10px;
+    }
+    .invite h1 {
+        padding: 5px 6px 5px 5px;
+        right: 95%;
+    }
+    section.content p.concertInfo {
+        font-size: 1em;
+    }
+}
+@media screen and (min-width: 48em) {
+    
+    .showProgram {
+        display: none;
+    }
+    section.content {
+        width: 92.8125%;
+        height: 260px;
+        padding: 30px 0;
+        margin: 40px auto;
+    }
+    .invite, .music {
+        position: relative;
+        width: 49%;
+        height: 230px;
+        float: left;
+        margin: 0;
+        padding: 0;
+    }
+    .invite {
+        border: none;
+        border-right: 1px #ccc solid;
+        padding-top: 30px;
+    }
+    .invite p {
+        font-size: 1.2em;
+    }
+    .invite .title {
+        font-size: 2em;
+        line-height: 0.9em;
+        padding-bottom: 40px;
+        -webkit-margin-before: 5px;
+        -webkit-margin-after: 0;
+    }
+    .invite .concertInfo {
+        font-size: 1em;
+    }
+    .music {
+        padding-top: 32px;
+        padding-left: 5px;
+        background-color: inherit;
+    }
+    .music .piece {
+        font-size: 1.2em;
+        font-weight: 600;
+    }
+    .music .composer {
+        font-size: 0.9em;
+        font-style: italic;
+        color: #666;
+    }
+    .moreLink {
+    }
+    .tickets {
+        margin-top: 4px;
+        font-size: 0.7em;
+        color: #2e2e2e;
+        line-height: 1.5em;
+    }
+    .tickets h2 {
+        font-weight: 400;
+        font-size: 1.2em;
+        margin: 0;
+    }
+}
+@media screen and (min-width: 60em) {
+    .navbar {
+        top: 30px;
+        padding-right: 35px;
+    }
+}

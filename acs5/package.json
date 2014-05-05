@@ -1,0 +1,13 @@
+{
+    "name": "acs5",
+    "version": "0.1.0",
+
+    "devDependencies": {
+        "grunt": "~0.4.1",
+        "grunt-contrib-concat": "*",
+        "grunt-contrib-jshint": "*",
+        "grunt-contrib-uglify": "*",
+        "grunt-contrib-cssmin": "*",
+        "grunt-contrib-watch": "*"
+    }
+}

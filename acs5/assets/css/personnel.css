@@ -1,0 +1,54 @@
+.site-head {
+    background-color: #2e2e2e;
+    padding: 0px 0px 10px 10px;
+}
+img.axel {
+    float: right;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+section.content {
+    height:auto;
+    padding: 10px;
+}
+.pAxel {
+    line-height: 1.4em;
+    text-align: justify;
+}
+.content h2 {
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+h3 {
+    font-variant: small-caps;
+    margin-bottom: -20px;
+}
+p.member {
+    line-height: 0.7em;
+}
+@media all and (min-width: 30em) {
+    .site-head img {
+        margin-top: 10px;
+    }
+    .head-info {
+        top: 15px;
+    }
+    .navbar {
+        top: 10px;
+    }
+    section.content {
+        padding: 20px;
+    }
+    img.axel {
+        float: right;
+        left: 0;
+        top: 5px;
+        padding-bottom: 5px;
+    }
+}
+@media all and (min-width: 60em) {
+    .navbar {
+        top: 30px;
+    }
+}
+}

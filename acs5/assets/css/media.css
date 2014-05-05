@@ -1,0 +1,58 @@
+
+.photoStage {
+  width: 92.8125%;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.photoStage img {
+  max-width: 100%;
+}
+
+.imgContainer {
+  width: 100%;
+}
+
+section.content img {
+  width: 92.8125%;
+  margin:10px 3.59375%;
+  cursor: pointer;
+}
+
+@media all and (min-width: 30em) {
+
+}
+@media all and (min-width: 37.5em) {
+
+  .imgContainer {
+    width: 92.8125%;
+    margin: 0 3.59375%;
+  }
+
+  section.content img {
+    width: 49%;
+    margin: 5px 0;
+  }
+}
+
+@media all and (min-width: 48em) {
+
+  section.content {
+  padding: 20px;
+}
+  section.content img:nth-child(2) {
+    margin-left: 7px;
+  }
+  section.content img:nth-child(4) {
+    margin-left: 7px;
+  }
+  section.content img:nth-child(6) {
+    margin-left: 7px;
+  }
+}
+}
+
+@media all and (min-width: 60em) {
+  
+}

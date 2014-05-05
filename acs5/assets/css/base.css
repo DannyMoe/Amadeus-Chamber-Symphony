@@ -1,0 +1,140 @@
+section.content {
+    max-width: 700px;
+}
+section.content h2 {
+    margin: 0 0 -10px 0;
+    text-align: center;
+}
+h3 {
+    font-variant: normal;
+}
+#calendar {
+    margin-top: 20px;
+    width: 100%;
+}
+.fc-button {
+    padding: 0;
+}
+.fc-header-title h2 {
+    font-size: 1em;
+    margin-top: 6px;
+}
+.fc-event {
+    margin-top: 12px;
+    font-size: 0.8em;
+    padding: 5px;
+    max-height: 87px;
+}
+#calendar thead {
+    color: #2e2e2e;
+    background: rgb(238, 238, 238);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(238, 238, 238, 1) 0%, rgba(204, 204, 204, 1) 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(238, 238, 238, 1)), color-stop(100%, rgba(204, 204, 204, 1)));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(238, 238, 238, 1) 0%, rgba(204, 204, 204, 1) 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(238, 238, 238, 1) 0%, rgba(204, 204, 204, 1) 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(238, 238, 238, 1) 0%, rgba(204, 204, 204, 1) 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, rgba(238, 238, 238, 1) 0%, rgba(204, 204, 204, 1) 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeeeee', endColorstr='#cccccc', GradientType=0);
+    /* IE6-9 */
+}
+#calendar tbody:nth-child(2) {
+  background-color: #fff;
+}
+#meetingForm {
+    max-width: 300px;
+    padding: 20px;
+}
+#meetingResults h3 {
+    margin-bottom: 20px;
+}
+.listItem:nth-child(odd) {
+    background-color: #eee;
+}
+.listItem:nth-child(even) {
+  background-color: #fff;
+}
+@media all and (min-width: 30em) {
+    .fc-button {
+        padding: 0 .4em;
+    }
+    .fc-header-title h2 {
+        font-size: 1.5em;
+        margin-top: 0;
+    }
+}
+@media all and (min-width: 48em) {
+    section.content h2 {
+        text-align: left;
+        margin: 0 0 -10px 25px;
+    }
+    #calendar {
+        width: 92.8125%;
+        margin: 20px auto;
+    }
+    .fc-button {
+        padding: 0 .6em;
+    }
+    #meetingForm {
+        margin: 40px 0 0 25px;
+        padding: 30px 20px;
+    }
+}
+/*
+ * BOARD
+ */
+ #meetingForm label, #meetingForm input, button {
+    padding: 5px;
+    border-radius: 4px;
+}
+input[type=submit], .download {
+    margin: 5px;
+    background: rgb(226, 226, 226);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(226, 226, 226, 1) 0%, rgba(219, 219, 219, 1) 50%, rgba(209, 209, 209, 1) 51%, rgba(254, 254, 254, 1) 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(226, 226, 226, 1)), color-stop(50%, rgba(219, 219, 219, 1)), color-stop(51%, rgba(209, 209, 209, 1)), color-stop(100%, rgba(254, 254, 254, 1)));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(226, 226, 226, 1) 0%, rgba(219, 219, 219, 1) 50%, rgba(209, 209, 209, 1) 51%, rgba(254, 254, 254, 1) 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(226, 226, 226, 1) 0%, rgba(219, 219, 219, 1) 50%, rgba(209, 209, 209, 1) 51%, rgba(254, 254, 254, 1) 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(226, 226, 226, 1) 0%, rgba(219, 219, 219, 1) 50%, rgba(209, 209, 209, 1) 51%, rgba(254, 254, 254, 1) 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, rgba(226, 226, 226, 1) 0%, rgba(219, 219, 219, 1) 50%, rgba(209, 209, 209, 1) 51%, rgba(254, 254, 254, 1) 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e2e2e2', endColorstr='#fefefe', GradientType=0);
+    /* IE6-9 */
+}
+input[type=submit]:hover {
+    color: #eee;
+    background-color: #2e2e2e;
+}
+.fileSubmit {
+    margin-top: 5px;
+}
+#meetingResults {
+    width: 92.8125%;
+    margin: 0 auto;
+}
+#meetingResults h2 {
+    margin-bottom: 20px;
+}
+.listItem {
+    height: 45px;
+    border-bottom: 1px #eee solid;
+    padding: 5px;
+}
+.listItem a {
+    position: relative;
+    top: 10px;
+}
+.download {
+    float: right;
+}
